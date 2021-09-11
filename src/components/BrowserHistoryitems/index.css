@@ -1,0 +1,38 @@
+.eachhistoryitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+.timeaccessed {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.domainurl {
+  font-size: 12px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.domainlogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+}
